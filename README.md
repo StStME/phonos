@@ -9,18 +9,16 @@ The setup consists of a phonogram which is connected to a raspberry pi using a u
 
 ```mermaid
 %%{init: {'theme':'dark'}}%%
- flowchart LR
-    Phono[Phono] -->|Wired| USBAudio[USB Audio Interface]
-    USBAudio -->|USB| RaspberryPi[Raspberry Pi]
-    RaspberryPi -->|WLAN/LAN| Network((Network))
-    Network -->|WLAN/LAN| Sonos[Sonos System]
 
-    style Phono fill:#f9d71c
-    style USBAudio fill:#a2d2ff
-    style RaspberryPi fill:#ff9aa2
-    style Network fill:#b5e48c
-    style Sonos fill:#ffdab9
+    flowchart LR
+        Phono[Phono] -->|Wired| USBAudio[USB Audio Interface]
+        USBAudio -->|USB| RaspberryPi[Raspberry Pi]
+        RaspberryPi -->|WLAN/LAN| Network((Network))
+        Network -->|WLAN/LAN| Sonos[Sonos System]
+
+     
 ```
+
 
 ## dependencies
 
