@@ -4,11 +4,12 @@
 Use your raspberry pi with an external USB soundcard to stream your phono to your Sonos system.  
 
 ## Setup
-The setup consists of a phonogram which is connected to a raspberry pi using a usb-audio interface. This Raspberry pi is then connected wit the same network as the Sonos system. 
+The setup consists of a phonogram which is connected to a raspberry pi using a usb-audio interface. This Raspberry pi is then connected with the same network as the Sonos system. 
 
 
 ```mermaid
-flowchart LR
+%%{init: {'theme':'dark'}}%%
+ flowchart LR
     Phono[Phono] -->|Wired| USBAudio[USB Audio Interface]
     USBAudio -->|USB| RaspberryPi[Raspberry Pi]
     RaspberryPi -->|WLAN/LAN| Network((Network))
