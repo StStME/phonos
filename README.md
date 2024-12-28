@@ -22,8 +22,9 @@ The setup consists of a phonogram which is connected to a raspberry pi using a u
 
 ## dependencies
 
-[ffmpeg](https://ffmpeg.org/)
-[soco-cli](https://github.com/avantrec/soco-cli)
+* [ffmpeg](https://ffmpeg.org/)
+* [alsa](https://www.alsa-project.org/wiki/Main_Page)
+* [soco-cli](https://github.com/avantrec/soco-cli)
 
 ## configuration
 
