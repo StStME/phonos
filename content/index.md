@@ -1,4 +1,9 @@
-# phonos
++++
+date = '2024-12-29T13:24:25+01:00'
+draft = true
+title = 'phonos'
++++
+
 **phonograph + sonos = phonos** 
 
 Use your raspberry pi with an external USB soundcard to stream your phono to your Sonos system.  

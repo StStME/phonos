@@ -1,0 +1,4 @@
+baseURL = 'https://ststme.github.io/'
+languageCode = 'en-us'
+title = 'phonos'
+theme = 'risotto'
